@@ -1,4 +1,3 @@
-import axios, { AxiosResponse } from 'axios'
 import { expect } from 'chai';
 import appConfig from '../config/appConfig';
 import request from 'request'
