@@ -1,14 +1,14 @@
 # syntax=docker/dockerfile:1
 
 FROM node:12-alpine
-ENV NODE_ENV=development
+
+ENV PORT=5000
+EXPOSE $PORT
 
 WORKDIR /app
 
-COPY ["package.json", "./"]
+COPY . .
 
 RUN npm install 
-
-COPY . .
 
 CMD [ "npm","start" ]
