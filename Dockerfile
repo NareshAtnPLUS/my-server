@@ -1,6 +1,6 @@
 # syntax=docker/dockerfile:1
 
-FROM node:12-alpine
+FROM public.ecr.aws/lambda/nodejs:latest
 
 ENV PORT=5000
 EXPOSE $PORT
