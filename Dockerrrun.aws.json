@@ -1,7 +1,7 @@
 {
   "AWSEBDockerrunVersion": "1",
   "Image": {
-    "Name": "node-ts-server",
+    "Name": "963121789475.dkr.ecr.us-east-1.amazonaws.com/node-ts-server:latest",
     "Update": "true"
   },
   "Ports": [
