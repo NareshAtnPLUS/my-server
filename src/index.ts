@@ -11,5 +11,5 @@ app.use(cors());
 app.use(express.json());
 
 app.use('/api', appRouter)
-app.listen(appConfig.PORT || 6000, () => console.log(`Server started and running at ${appConfig.BASE_URL}`))
+app.listen(appConfig.PORT || 6000, () => console.log(`Server started at ${appConfig.BASE_URL}`))
 
